@@ -1,0 +1,25 @@
+---
+title: "A Study in Spirits:"
+subtitle: "Arthur Conan Doyle’s Linkage of Mormonism, Spiritualism, and the Pursuit of Primitive Christianity During His Second Spiritualist Tour of America"
+author: "Zeki Salah"
+output: 
+  html_document:
+    css: spirit.css
+bibliography: Study-in-Spirits.bib
+csl: chicago-fullnote-bibliography.csl
+theme: null
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css, echo=FALSE}
+
+```
+## Entering Salt Lake City:  
+
+On May 11 of 1923, Arthur Conan Doyle set foot in Salt Lake City for the first time in his life. He entered the city with the purpose of proselytizing Spiritualism, which he thought to be the "New Revelation" of the twentieth century. While Conan Doyle's legacy as the creator of Sherlock Holmes often brought recognition and respect to his Spiritualist lectures, Salt Lake City seemed to be the exception. Although he had not set foot in the city before, Doyle had previously voiced sensationalized criticisms against the city's predominantly Mormon population in his first Sherlock Holmes novel, *A Study in Scarlet*. [@DoyleDeseretMay11] [@DoyleDeseretMay11]
+
+# Works Cited
+
