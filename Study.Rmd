@@ -8,7 +8,6 @@ output:
     template: spirit.tex
   html_document:
     css: spirit.css
-  word_document: default
 bibliography: Study-in-Spirits.bib
 csl: chicago-fullnote-bibliography.csl
 theme: null
@@ -51,9 +50,7 @@ When Doyle entered Salt Lake City to promote his Spiritualist beliefs, he was we
 
 ## Mormonism, Sensationalism, and Eclecticism in Victorian England:
 
-
-
-In the mid to late-nineteenth century, the British press persistently criticized Mormonism for its oppressive social structures and lack of civility. Michael Homer, a scholar of early Mormonism, notes that sensationalist pieces concerning Mormonism were very popular in United Kingdom in the 1880s, as Mormon missionaries had been successfully proselytizing the country for forty years and politicians, newspapers, and journalists were paying considerable attention to the movement.  The British yellow press at the time was especially xenophobic towards an influx of Mormon missionaries to England with the *London Quarterly Review* urged for the hanging of Mormon missionaries who they claimed were kidnapping English servant-girls.  These depictions of Mormon society were not limited to the yellow press but were also frequently found in more reputable journals such as *Atlantic*, *Harpers*, and *Saturday Review*.  Rebecca Cornwall and Leonard Arrington examine sensationalist works that may have influenced Doyle and note that the London Times published a report on the latest efforts of the U.S. government to rid Utah of polygamy on March 30, 1886, which was around the time Doyle started writing *A Study in Scarlet*.  This report sensationalized conditions in Utah, describing a suppression of dissent and threat of violence by Mormon theocracy, that closely paralleled the setting of the novel.  A fascination with the mythology of a Mormon theocracy was not only a popular topic in Britain, but was a topic that Doyle explicitly addressed in *A Study*.
+In the mid to late-nineteenth century, the British press persistently criticized Mormonism for its oppressive social structures and lack of civility. Michael Homer, a scholar of early Mormonism, notes that sensationalist pieces concerning Mormonism were very popular in United Kingdom in the 1880s, as Mormon missionaries had been successfully proselytizing the country for forty years and politicians, newspapers, and journalists were paying considerable attention to the movement. The British yellow press at the time was especially xenophobic towards an influx of Mormon missionaries to England with the *London Quarterly Review* urged for the hanging of Mormon missionaries who they claimed were kidnapping English servant-girls. These depictions of Mormon society were not limited to the yellow press but were also frequently found in more reputable journals such as *Atlantic*, *Harpers*, and *Saturday Review*.  Rebecca Cornwall and Leonard Arrington examine sensationalist works that may have influenced Doyle and note that the London Times published a report on the latest efforts of the U.S. government to rid Utah of polygamy on March 30, 1886, which was around the time Doyle started writing *A Study in Scarlet*. This report sensationalized conditions in Utah, describing a suppression of dissent and threat of violence by Mormon theocracy, that closely paralleled the setting of the novel. A fascination with the mythology of a Mormon theocracy was not only a popular topic in Britain, but was a topic that Doyle explicitly addressed in *A Study*.
 
 
 
