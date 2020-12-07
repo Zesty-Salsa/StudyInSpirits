@@ -239,10 +239,9 @@
 }
 
 body {
-    max-width: 38em;
-    min-width: 20em;
     text-align: justify;
     text-justify: inter-word;
+    margin: auto;
 }
 
 @media screen and (min-width: 1080px) {
@@ -267,9 +266,10 @@ print {
 }
 
 p {
-    text-indent: 0.5in;
-    margin-top: 0;
+    padding: 1em;
 }
+
+
 
 h1 {
     font-size: 16px;
@@ -287,9 +287,19 @@ h1, h2 {
 h2 {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: 100%;
     letter-spacing: 0.04em;
-    padding-bottom: 5px;
+    padding-bottom: 0.5em;
+}
+
+h3{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 100%;
+    letter-spacing: 0.04em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;
 }
 
 h1,
@@ -302,9 +312,8 @@ figure,
 p {
     font-size: inherit;
     line-height: inherit;
-    margin: 0;
+    margin: 0 auto;
     /* 0.5em to act as space after floated h3 */
-    padding: 0 0.5em 0 0;
     text-emphasis: inherit;
     font-weight: inherit;
     -webkit-margin-before: 0;
@@ -314,9 +323,9 @@ p {
 body {
     font-family: EB Garamond;
     color: black;
-    max-width: 624px;
-    margin-left: 96px;
-    margin-right: 96px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5em;
 }
 
 .title.toc-ignore {
@@ -331,7 +340,7 @@ body {
 
 .author {
     padding: 9.6px;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -346,15 +355,25 @@ blockquote ol {
   margin-left: calc((40 / 18) * -1rem); /* -40px when width = 1080px */
 }
 
+
+.abstract-text{
+    font-size: smaller;
+    padding-bottom: 1em;
+    margin: 0em 3em 0em 3em;
+}
+
 /* Blockquotes */
 blockquote {
   margin-left: 3em; /* 0.8889rem = 16px when font-size: 12pt */
   margin-right: 3em;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-right: 0;
+  margin-bottom: -0.3em;
+  margin-top: -0.3em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
   font-size: inherit;
-  border-left: none;
+  border-left: 1px solid #1a1a1a;
+  background-color: #f1f1f1;
+  font-size: smaller;
 }
 
 blockquote p{
@@ -455,10 +474,15 @@ kbd {
     right: 0.5in;
   }
   
-  blockquote p{
-    text-indent: 0;
+  .footnotes {
+      padding: 0px;
+      margin-top: 0.5px;
+      margin-bottom: 0.5px;
   }
-    
-    
   
+  .references-hanging-indent {
+    padding: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
 }
