@@ -1,13 +1,39 @@
 ---
 title: "A Study in Spirits"
 author: "Zeki Salah"
-subtitle: "Arthur Conan Doyle’s Linkage of Mormonism, Spiritualism, and the Pursuit of Primitive Christianity During His Second Spiritualist Tour of America"
-abstract: "*This paper explores Arthur Conan Doyle’s visit to Salt Lake City, Utah on his 1923 tour of America during which he proslytized Spiritualism. By reading local reports of Doyle’s tour, his travelogue, and transcripts of his speeches, I argue that Doyle presented Spiritualism as restorationist form of Christianity akin to Mormonism. I situate my argument against the view that Spiritualists promoted their beliefs by claiming to reconcile scientific and religious tensions that characterized the turn of the twentieth century. In his Spiritualist rhetoric, Doyle’s engagement with a diversity of American religious desires that often superseded his intents to present the religion as scientific and rational. In Salt Lake City, Doyle appealed to a predominantly Mormon audience by focusing on religious similarities between Spiritualism and Mormonism and stressing their shared lineage as new religions that seek to foster a restoration of “primitive Christianity.” I trace the development of Doyle’s interest in Mormonism through an investigation of his first Sherlock Holmes story, *A Study in Scarlet*. In *A Study*, Doyle was highly critical of the Mormon church hierarchy, but presented Mormonism as having an eclectic combination of modern and primitive values that fosters social progression. This notion of Mormonism as an innovative hybrid of ideas reappeared in Doyle’s Spiritualist rhetoric as he argued that both Spiritualism and Mormonism seek to restore primitive Christian practices by looking to otherworldly sources. Despite this positive view of Mormonism, Doyle utilized his tour through Salt Lake City to ultimately argue that Spiritualism was the superior religious choice. After his tour, Doyle continued to criticize the authority of the Mormon priesthood, arguing that it encouraged polygamy and excluded outsiders. On the other hand, Doyle proposed that Spiritualism offered an egalitarian method of accessing primitive Christian truths, unrestrained by institutionalism and offering a clearer path towards social progress.*"
+subtitle: Arthur Conan Doyle’s Linkage of Mormonism, Spiritualism, and the Pursuit
+  of Primitive Christianity During His Second Spiritualist Tour of America
 output:
-  html_document:
-    css: spirit.css
+  word_document: default
   pdf_document:
     template: spirit.tex
+  html_document:
+    css: spirit.css
+abstract: '*This paper explores Arthur Conan Doyle’s visit to Salt Lake City, Utah
+  on his 1923 tour of America during which he proslytized Spiritualism. By reading
+  local reports of Doyle’s tour, his travelogue, and transcripts of his speeches,
+  I argue that Doyle presented Spiritualism as restorationist form of Christianity
+  akin to Mormonism. I situate my argument against the view that Spiritualists promoted
+  their beliefs by claiming to reconcile scientific and religious tensions that characterized
+  the turn of the twentieth century. In his Spiritualist rhetoric, Doyle’s engagement
+  with a diversity of American religious desires that often superseded his intents
+  to present the religion as scientific and rational. In Salt Lake City, Doyle appealed
+  to a predominantly Mormon audience by focusing on religious similarities between
+  Spiritualism and Mormonism and stressing their shared lineage as new religions that
+  seek to foster a restoration of “primitive Christianity.” I trace the development
+  of Doyle’s interest in Mormonism through an investigation of his first Sherlock
+  Holmes story, *A Study in Scarlet*. In *A Study*, Doyle was highly critical of the
+  Mormon church hierarchy, but presented Mormonism as having an eclectic combination
+  of modern and primitive values that fosters social progression. This notion of Mormonism
+  as an innovative hybrid of ideas reappeared in Doyle’s Spiritualist rhetoric as
+  he argued that both Spiritualism and Mormonism seek to restore primitive Christian
+  practices by looking to otherworldly sources. Despite this positive view of Mormonism,
+  Doyle utilized his tour through Salt Lake City to ultimately argue that Spiritualism
+  was the superior religious choice. After his tour, Doyle continued to criticize
+  the authority of the Mormon priesthood, arguing that it encouraged polygamy and
+  excluded outsiders. On the other hand, Doyle proposed that Spiritualism offered
+  an egalitarian method of accessing primitive Christian truths, unrestrained by institutionalism
+  and offering a clearer path towards social progress.*'
 bibliography: Study-in-Spirits.bib
 csl: chicago-fullnote-bibliography.csl
 theme: null

@@ -267,12 +267,13 @@ print {
 
 p {
     padding: 1em;
+    margin: auto 0.01em;
 }
 
 
 
 h1 {
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -310,8 +311,6 @@ h5,
 h6,
 figure,
 p {
-    font-size: inherit;
-    line-height: inherit;
     margin: 0 auto;
     /* 0.5em to act as space after floated h3 */
     text-emphasis: inherit;
@@ -426,6 +425,30 @@ kbd {
     }
 }
 
+
+
+
+  /* ...but not the very first one */
+
+body > :first-child{
+    text-indent: 0;
+  }
+
+blockquote {
+    margin-left: 0.5in;
+    right: 0.5in;
+  } 
+
+.footnote-ref{
+    color: #1a1a1a;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+.footnotes p {
+    padding: .5em;
+}
+
 /* Intended border color from 200px */
 @media screen and (min-width: 200px) {
     hr,
@@ -449,40 +472,5 @@ kbd {
     /* text-align: justify; */
     text-justify: inter-word;
     background: transparent !important; /* Only on html due to checkboxes */
-  }
-
-  body {
-    margin-left: 1in;
-    margin-right: 1in;
-    margin-top: 0;
-  }
-    
-  /* Indent Paragraphs */
-  p {
-    text-indent: 0.5in;
-    margin-top: 0;
-  }
-
-  /* ...but not the very first one */
-
-  body > :first-child{
-    text-indent: 0;
-  }
-
-  blockquote {
-    margin-left: 0.5in;
-    right: 0.5in;
-  }
-  
-  .footnotes {
-      padding: 0px;
-      margin-top: 0.5px;
-      margin-bottom: 0.5px;
-  }
-  
-  .references-hanging-indent {
-    padding: 0px !important;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
   }
 }
