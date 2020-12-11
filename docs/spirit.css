@@ -249,6 +249,7 @@
 print {
     html {
         font-weight: 400;
+        
     }
 }
 
@@ -397,7 +398,6 @@ blockquote ol {
 .overlay a {
   text-decoration: underline;
   font-size: 27px;
-  padding: 0 -2em 0 -2em;
   color: #f1f1f1;
   transition: 0.3s;
 }
@@ -410,19 +410,31 @@ blockquote ol {
   position: absolute;
   top: 20px;
   right: 45px;
-  font-size: 60px;
+  font-size: 5em;
   z-index: 10;
 }
 
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
-  .overlay a {font-size: 50%}
+  .overlay-content {font-size: 20px}
+  .overlay a {font-size: 20px}
   .overlay .closebtn {
-  font-size: 50%;
+  font-size: 4em;
   top: 15px;
   right: 35px;
   }
 }
+
+@media screen and (max-width: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay-content {font-size: 20px}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 4em;
+    top: 15px;
+    right: 35px;
+    }
+  }
 
 #about-butt{
     cursor:pointer;
