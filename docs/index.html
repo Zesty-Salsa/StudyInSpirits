@@ -191,10 +191,44 @@ if (window.hljs) {
 
 </head>
 
+<header id="navigation">
+    <nav id="nav-bar">
+      <div id="home-butt">
+        <a class="head-butt" href="#home">Home</a>
+      </div>
+      <div id="about-butt" onclick="openNav()">
+        <a class="head-butt">About this Project</a>
+      </div>
+      </ul>
+    </nav>
+    </div>
+</header>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="container">
+    <div class="overlay-content">
+      This is a paper that I wrote for the Edinburgh Conan Doyle Network Conference. It is adapted from a chapter of my undergraduate honors thesis which examined Arthur Conan Doyle's Spiritualist rhetoric on his 1923 tour of America. I wrote this article using RMarkdown and you click <a href="https://Zesty-Salsa.github.io/RMarkdown">here</a> to read about that experience. This allowed me to export it as the website that you are currently viewing, as well as as a <a href="download link">pdf</a>. <br>
+      <br>
+      Enjoy!
+    </div>
+  </div>
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+</script>
+
 <body>
 
 
-<div class="container-fluid main-container">
+<div class="container">
 
 
 

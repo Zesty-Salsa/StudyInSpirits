@@ -239,7 +239,7 @@
 }
 
 @media screen and (min-width: 1080px) {
-    body {
+    .container {
         max-width: 800px;
     }
 }
@@ -261,10 +261,8 @@ print {
 
 p {
     padding: 1em;
-    margin: auto 1.5xem;
+    margin: auto 1.5em;
 }
-
-
 
 h1 {
     font-size: 24px;
@@ -310,17 +308,20 @@ p {
     -webkit-margin-after: 0;
 }
 
-body {
-    font-family: EB Garamond;
-    color: black;
+.container{
     margin: 0 auto;
-    margin-top: 8em;
-    background-color: #ccccc9;
     text-align: left;
     text-justify: inter-word;
 }
 
+body {
+    font-family: EB Garamond;
+    color: black;
+    background-color: #ccccc9;
+}
+
 .title.toc-ignore {
+    margin-top: 2em;
     font-size: 24px;
     text-align: center;
 }
@@ -347,6 +348,84 @@ blockquote ol {
   margin-left: calc((40 / 18) * -1rem); /* -40px when width = 1080px */
 }
 
+#navigation {
+    background-color: #1d2127;
+    margin: -1em;
+}
+
+.head-butt {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.25em;
+  }
+  
+  nav { 
+    width: 100%;
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 3em;
+    max-width: 1800px;
+    min-width: 5em;
+    justify-content: space-around;
+}
+
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    padding: 5em 1em 0em 1em;
+    font-size: 27px;
+    margin: auto 0em;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.overlay a {
+  text-decoration: underline;
+  font-size: 27px;
+  padding: 0 -2em 0 -2em;
+  color: #f1f1f1;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #4531ff;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 100%;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+#about-butt{
+    cursor:pointer;
+}
 
 .abstract-text{
     font-size: smaller;
@@ -364,7 +443,7 @@ blockquote {
   padding-top: 0.5em;
   font-size: inherit;
   border-left: 1px solid #1a1a1a;
-  background-color: #bdb9b9;
+  background-color: #c4c3c3;
   font-size: smaller;
 }
 
@@ -433,13 +512,13 @@ blockquote {
   } 
 
 .footnote-ref{
-    color: #1a1a1a;
+    color: #4531ff;
     font-size: 12px;
     text-decoration: none;
   }
 
 .footnotes p {
-    padding: .5em;
+    padding: 0.35em;
 }
 
 /* Intended border color from 200px */
