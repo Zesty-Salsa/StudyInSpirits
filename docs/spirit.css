@@ -415,9 +415,9 @@ blockquote ol {
 
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
+  .overlay a {font-size: 50%}
   .overlay .closebtn {
-  font-size: 100%;
+  font-size: 50%;
   top: 15px;
   right: 35px;
   }
