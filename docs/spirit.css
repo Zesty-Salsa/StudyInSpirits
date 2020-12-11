@@ -403,7 +403,7 @@ blockquote ol {
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #4531ff;
+  color: #1e616b;
 }
 
 .overlay .closebtn {
@@ -512,7 +512,7 @@ blockquote {
   } 
 
 .footnote-ref{
-    color: #4531ff;
+    color: #1e616b;
     font-size: 12px;
     text-decoration: none;
   }
