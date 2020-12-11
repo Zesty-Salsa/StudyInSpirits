@@ -322,6 +322,7 @@ body {
     justify-content: center;
     margin: 0 auto;
     margin-top: 5em;
+    background-color: #ccccc9;
 }
 
 .title.toc-ignore {
@@ -368,7 +369,7 @@ blockquote {
   padding-top: 0.5em;
   font-size: inherit;
   border-left: 1px solid #1a1a1a;
-  background-color: #f1f1f1;
+  background-color: #bdb9b9;
   font-size: smaller;
 }
 
