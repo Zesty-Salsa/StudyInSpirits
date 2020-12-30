@@ -532,6 +532,10 @@ blockquote {
     line-height: 0;
   }
 
+a{
+    color: #1e616b; 
+  }
+
 .footnotes p {
     padding: 0.2em;
 }
