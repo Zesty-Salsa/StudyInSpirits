@@ -4,11 +4,11 @@ author: "Zeki Salah"
 subtitle: Arthur Conan Doyle’s Linkage of Mormonism, Spiritualism, and the Pursuit
   of Primitive Christianity During His Second Spiritualist Tour of America
 output:
+  html_document:
+    css: spirit.css
   word_document: default
   pdf_document:
     template: spirit.tex
-  html_document:
-    css: spirit.css
 abstract: '*This paper explores Arthur Conan Doyle’s visit to Salt Lake City, Utah
   on his 1923 tour of America during which he proslytized Spiritualism. By reading
   local reports of Doyle’s tour, his travelogue, and transcripts of his speeches,
@@ -105,7 +105,7 @@ Scholars have traced sensationalist influences upon *A Study* through the conten
 
 The content of *A Study* is reflective of sensationalized accounts that presented Mormon society as rife with violence and polygamy that was enforced by an authoritative priesthood. In *A Study*, John Ferrier and his adopted daughter Lucy are stranded in a desert and are eventually saved by Brigham Young and a party of Mormons. John then joins the Church of the Latter-Day Saints and subscribes to all tenets of Mormonism except for polygamy, refusing to allow Lucy to marry Mormon polygamists. John and Lucy attempt to escape Mormon society with a non-Mormon coal miner, Jefferson Hope, to whom Lucy becomes engaged. However, they are stopped by the Avenging Angels, members of the Danite band who are described as enforcers of polygamy for the Church hierarchy. The Avenging Angels kill John while Lucy later dies of a broken heart. Twenty years later, Jefferson Hope tracks down and kills two of the Avenging Angels and Sherlock Holmes is called to investigate the case. This story is representative of Doyle’s view of Mormonism and his larger critiques of institutionalized religions being overly authoritative and antagonistic towards outsiders. Doyle presented Mormon society as lacking civility by describing how immoral behaviors, such as polygamy and violence, are enforced through the Church hierarchy. Later, in *Our Second American Adventure*, Doyle acknowledged that he sensationalized the prevalence of violence and polygamy in Mormon society but he maintained his criticism of the church hierarchy and held fast to his historical depiction of the Danite band.[Doyle's account of the Danite band was unsubstantiated. Although Brigham Young did organized a militia to pursue raiders of Mormon cattle and horses, sources which reported on their efforts to capture, kill and torture those who crossed Young fail to produce evidence of such claims. See: @Arrington, 250] 
 
-Despite Doyle’s criticisms of Mormon polygamy and authoritarianism in *A Study*, he also often takes a sympathetic approach to Mormon society in the novel and values what he sees as eclectic beliefs drawn from primitive traditions. He not only voiced appreciation for the industriousness of Mormons, but also acknowledged the religious merits of Mormonism as John Ferrier accepts every tenet of the religion aside of polygamy. He was not alone in voicing this admiration; Lecourt notes that many English writers of the period were fascinated by Mormonism’s variety of religious influences and provides a quote from William Hepworth Dixon’s New America:
+Despite Doyle’s criticisms of Mormon polygamy and authoritarianism in *A Study*, he also often takes a sympathetic approach to Mormon society in the novel and values what he sees as eclectic beliefs drawn from primitive traditions. He not only voiced appreciation for the industriousness of Mormons, but also acknowledged the religious merits of Mormonism as John Ferrier accepts every tenet of the religion aside of polygamy. He was not alone in voicing this admiration; Lecourt notes that many English writers of the period were fascinated by Mormonism’s variety of religious influences and provides a quote from William Hepworth Dixon’s *New America*:
 
 >[Smith] taught his disciples . . . to extract the grain of good out of every old creed… He took much from Mohammed, more from Paul, most of all from Abraham; but in his free handling of religious notions, he had no scruple about borrowing from the Hindoos, from the Tartars, from the Mohawks. [@NewAmerica, 263; @Lecourt, 101]
 

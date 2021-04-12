@@ -1,0 +1,568 @@
+@media screen and (min-width: 81px) {
+  html {
+      font-size: 1.1px;
+  }
+}
+
+@media screen and (min-width: 82px) {
+  html {
+      font-size: 1.2px;
+  }
+}
+
+@media screen and (min-width: 83px) {
+  html {
+      font-size: 1.3px;
+  }
+}
+
+@media screen and (min-width: 84px) {
+  html {
+      font-size: 1.4px;
+  }
+}
+
+@media screen and (min-width: 85px) {
+  html {
+      font-size: 1.5px;
+  }
+}
+
+@media screen and (min-width: 88px) {
+  html {
+      font-size: 1.7px;
+  }
+}
+
+@media screen and (min-width: 90px) {
+  html {
+      font-size: 1.85px;
+  }
+}
+
+@media screen and (min-width: 92px) {
+  html {
+      font-size: 2px;
+  }
+}
+
+@media screen and (min-width: 97px) {
+  html {
+      font-size: 2.5px;
+  }
+}
+
+@media screen and (min-width: 105px) {
+  html {
+      font-size: 3px;
+  }
+}
+
+@media screen and (min-width: 114px) {
+  html {
+      font-size: 3.5px;
+  }
+}
+
+@media screen and (min-width: 120px) {
+  html {
+      font-size: 4px;
+  }
+}
+
+@media screen and (min-width: 135px) {
+  html {
+      font-size: 5px;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  html {
+      font-size: 6px;
+  }
+}
+
+@media screen and (min-width: 165px) {
+  html {
+      font-size: 7px;
+  }
+}
+
+@media screen and (min-width: 180px) {
+  html {
+      font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 180px) and (min-device-width: 1152px) {
+  html {
+      font-size: 7px;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  html {
+      font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 200px) and (min-device-width: 1152px) {
+  html {
+      font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 220px) {
+  html {
+      font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 220px) and (min-device-width: 1152px) {
+  html {
+      font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 240px) {
+  html {
+      font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 240px) and (min-device-width: 1152px) {
+  html {
+      font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 260px) {
+  html {
+      font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 260px) and (min-device-width: 1152px) {
+  html {
+      font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  html {
+      font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 280px) and (min-device-width: 1152px) {
+  html {
+      font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  html {
+      font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 300px) and (min-device-width: 1152px) {
+  html {
+      font-size: 12px;
+  }
+}
+
+
+/* 15px @320 for iPhone 5 */
+
+@media screen and (min-width: 320px) {
+  html {
+      font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (min-device-width: 1152px) {
+  html {
+      font-size: 13px;
+  }
+}
+
+
+/* For iPhone 6+ */
+
+@media screen and (min-width: 414px) {
+  html {
+      font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 414px) and (min-device-width: 1152px) {
+  html {
+      font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+      font-size: 16.5px;
+  }
+}
+
+@media screen and (min-width: 640px) and (min-device-width: 1152px) {
+  html {
+      font-size: 15px;
+  }
+}
+
+
+/* For iPad and above */
+
+@media screen and (min-width: 768px) {
+  html {
+      font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-width: 1152px) {
+  html {
+      font-size: 16px;
+  }
+}
+
+
+/* For widescreen */
+
+@media screen and (min-width: 1080px) {
+  html {
+      font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .container {
+      max-width: 800px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+print {
+  html {
+      font-weight: 400;
+      
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 414px) and (min-device-width: 1152px),
+(min-resolution: 192dpi) and (min-width: 414px) and (min-device-width: 1152px) {
+  html {
+      font-weight: 300;
+  }
+}
+
+p {
+  padding: 1em;
+  margin: auto 1.5em;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h1, h4, h5 {
+  text-align: center;
+}
+
+h1, h2 {
+  padding-top: 1em;
+}
+
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 100%;
+  letter-spacing: 0.04em;
+  padding: 0 0.65em 0 0.65em;
+}
+
+h3{
+  font-weight: 700;
+  font-style: italic;
+  font-size: 100%;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p {
+  /* 0.5em to act as space after floated h3 */
+  text-emphasis: inherit;
+  font-weight: inherit;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  font-family: Roboto Slab;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: left;
+  text-justify: inter-word;
+}
+
+body {
+  font-family: Montserrat;
+  color: black;
+  background-color: #edf5ff;
+}
+
+.title.toc-ignore {
+  margin-top: 2em;
+  font-size: 24px;
+  text-align: center;
+}
+
+.subtitle{ 
+  font-size: 16px;
+  text-align: center;
+}
+
+.author {
+  padding: 9.6px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Ignore paragraph indentation in paragraph lists */
+:-webkit-any(li) > :-webkit-any(p) {
+  text-indent: 0;
+}
+
+/* Indent ordered lists in blockquotes */
+blockquote ul,
+blockquote ol {
+margin-left: calc((40 / 18) * -1rem); /* -40px when width = 1080px */
+}
+
+#navigation {
+  background-color: #1d2127;
+  margin: -1em;
+}
+
+.head-butt {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+nav { 
+  width: 100%;
+  height: 5em;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-top: 3em;
+  max-width: 1800px;
+  min-width: 5em;
+  justify-content: space-around;
+}
+
+
+.overlay {
+height: 0%;
+width: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9);
+overflow-y: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  padding: 5em 1em 0em 1em;
+  font-size: 27px;
+  margin: auto 0em;
+  text-align: justify;
+  color: whitesmoke;
+}
+
+.overlay a {
+text-decoration: underline;
+font-size: 27px;
+color: #f1f1f1;
+transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #1e616b;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 5em;
+z-index: 10;
+}
+
+@media screen and (max-height: 450px) {
+.overlay {overflow-y: auto;}
+.overlay-content {font-size: 20px}
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+font-size: 4em;
+top: 15px;
+right: 35px;
+}
+}
+
+@media screen and (max-width: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay-content {font-size: 20px}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 4em;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+#about-butt{
+  cursor:pointer;
+}
+
+.abstract-text{
+  font-size: smaller;
+  padding-bottom: 1em;
+  margin: 0em 3em 0em 3em;
+}
+
+/* Blockquotes */
+blockquote {
+margin-left: 3em; /* 0.8889rem = 16px when font-size: 12pt */
+margin-right: 3em;
+margin-bottom: -0.3em;
+margin-top: -0.3em;
+padding-bottom: 0.5em;
+padding-top: 0.5em;
+font-size: inherit;
+border-left: 1px solid #1a1a1a;
+background-color: #c4c3c3;
+font-size: smaller;
+}
+
+blockquote p{
+text-indent: 0;
+line-height: 1.25em;
+}
+
+
+/* Page Breaks */
+
+.pagebreak {
+  content: "---Page Break---"
+}
+
+
+
+/* Override core.css */
+@media screen and (min-width: 100px) {
+hr {
+  margin-top: calc((30 / 18) * 1rem);
+  margin-bottom: calc((29 / 18) * 1rem); /* -1px for border-bottom */
+}
+}
+
+/* Tables: see core.css */
+
+/* Code */
+
+code,
+samp,
+kbd {
+font-size: calc((15 / 18) * 1em); /* 0.8333 = 15px @ font-size: 18px */
+}
+
+/* @media Rules */
+
+/* Combined horizontal line styles, supplimenting core.css */
+
+/* Adjust border color to imitate sub-pixel lines */
+@media screen and (min-width: 150px) {
+  hr,
+  caption,
+  tbody th,
+  td {
+      border-bottom-color: #888;
+  }
+
+  tbody th,
+  td {
+      border-top-color: #888;
+  }
+}
+
+
+
+
+/* ...but not the very first one */
+
+body > :first-child{
+  text-indent: 0;
+}
+
+blockquote {
+  margin-left: 0.5in;
+  right: 0.5in;
+} 
+
+.footnote-ref{
+  color: #1e616b;
+  font-size: 10px;
+  text-decoration: none;
+  line-height: 0;
+}
+
+a{
+  color: #1e616b; 
+}
+
+.footnotes p {
+  padding: 0.2em;
+}
+
+/* Intended border color from 200px */
+@media screen and (min-width: 200px) {
+  hr,
+  caption,
+  tbody th,
+  td {
+      border-bottom-color: #1a1a1a;
+  }
+
+  tbody th,
+  td {
+      border-top-color: #1a1a1a;
+  }
+}
+
+/* Print styles */
+/* font-size needs to be set here again otherwise responsive typography overrides it */
+@media print {
+html {
+  font-size: 12pt;
+  /* text-align: justify; */
+  text-justify: inter-word;
+  background: transparent !important; /* Only on html due to checkboxes */
+}
+}
