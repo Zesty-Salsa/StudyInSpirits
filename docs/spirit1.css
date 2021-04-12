@@ -528,9 +528,9 @@ blockquote {
 
 .footnote-ref{
   color: #1e616b;
-  font-size: 10px;
+  font-size: 12px;
   text-decoration: none;
-  line-height: 0;
+  line-height: 2px;
 }
 
 a{
