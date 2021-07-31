@@ -320,7 +320,6 @@ body {
   font-family: Montserrat;
   color: black;
   background-color: #edf5ff;
-  margin: 0 0 0 0;
 }
 
 .title.toc-ignore {
@@ -353,28 +352,8 @@ margin-left: calc((40 / 18) * -1rem); /* -40px when width = 1080px */
 
 #navigation {
   background-color: #1d2127;
-  display: flex;
-  justify-content: flex-end;
-  top: 0;
-  left: 0;
-  width: 100%;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
-}
-
-@media (max-width: 28.75em) {
-  #navigation {
-    justify-content: center;
-  }
-
-  .nav-list {
-    margin: 0 1rem 0 1rem;
-  }
-
-  .head-butt {
-      margin: 0;
-      font-size: 1em;
-  }
+  margin: -1em;
+  padding-left: 5em;
 }
 
 .head-butt {
@@ -476,16 +455,16 @@ right: 35px;
 
 /* Blockquotes */
 blockquote {
-  margin-left: 3em; /* 0.8889rem = 16px when font-size: 12pt */
-  margin-right: 3em;
-  margin-bottom: -0.3em;
-  margin-top: -0.3em;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  font-size: inherit;
-  background-color: #d6e2f0;
-  box-shadow: grey 3px 2px 2px;
-  font-size: smaller;
+margin-left: 3em; /* 0.8889rem = 16px when font-size: 12pt */
+margin-right: 3em;
+margin-bottom: -0.3em;
+margin-top: -0.3em;
+padding-bottom: 0.5em;
+padding-top: 0.5em;
+font-size: inherit;
+border-left: 1px solid #1a1a1a;
+background-color: #dee0e2;
+font-size: smaller;
 }
 
 blockquote p{
@@ -554,7 +533,7 @@ blockquote {
 } 
 
 .footnote-ref{
-  color: #133e44;
+  color: #1e616b;
   font-size: 12px;
   text-decoration: none;
   line-height: 2px;
