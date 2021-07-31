@@ -319,6 +319,10 @@ body {
     font-family: EB Garamond;
     color: black;
     background-color: #edf5ff;
+<<<<<<< HEAD
+    margin: 0 0 0 0;
+=======
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
 }
 
 .title.toc-ignore {
@@ -351,6 +355,39 @@ blockquote ol {
 
 #navigation {
     background-color: #1d2127;
+<<<<<<< HEAD
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  
+  @media (max-width: 28.75em) {
+    #navigation {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem 0 1rem;
+    }
+  
+    .head-butt {
+        margin: 0;
+        font-size: 1em
+    }
+  }
+  
+  .head-butt {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.25em;
+    margin-right: 2rem;
+  }
+
+=======
     margin: -1em;
     padding-left: 5em;
 }
@@ -360,12 +397,22 @@ blockquote ol {
     text-decoration: none;
     font-size: 1.25em;
   }
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
   
   nav { 
     width: 100%;
     height: 4em;
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding-top: 2em;
+    max-width: 1800px;
+    min-width: 5em;
+}
+
+=======
     margin: 0 auto;
     text-align: center;
     padding-top: 2em;
@@ -375,6 +422,7 @@ blockquote ol {
 }
 
 
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
 .overlay {
   height: 0%;
   width: 100%;
@@ -461,8 +509,13 @@ blockquote {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   font-size: inherit;
+<<<<<<< HEAD
+  background-color: #d6e2f0;
+  box-shadow: grey 3px 2px 2px;
+=======
   border-left: 1px solid #1a1a1a;
   background-color: #dee0e2;
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
   font-size: smaller;
 }
 
@@ -532,7 +585,11 @@ blockquote {
   } 
 
 .footnote-ref{
+<<<<<<< HEAD
+    color: #133e44;
+=======
     color: #1e616b;
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
     font-size: 12px;
     text-decoration: none;
     line-height: 0;

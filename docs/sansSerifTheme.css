@@ -320,6 +320,10 @@ body {
   font-family: Montserrat;
   color: black;
   background-color: #edf5ff;
+<<<<<<< HEAD
+  margin: 0 0 0 0;
+=======
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
 }
 
 .title.toc-ignore {
@@ -352,14 +356,57 @@ margin-left: calc((40 / 18) * -1rem); /* -40px when width = 1080px */
 
 #navigation {
   background-color: #1d2127;
+<<<<<<< HEAD
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+@media (max-width: 28.75em) {
+  #navigation {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem 0 1rem;
+  }
+
+  .head-butt {
+      margin: 0;
+      font-size: 1em;
+  }
+=======
   margin: -1em;
   padding-left: 5em;
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
 }
 
 .head-butt {
   color: whitesmoke;
   text-decoration: none;
   font-size: 1.25em;
+<<<<<<< HEAD
+  margin-right: 2rem;
+}
+
+
+nav { 
+  width: 100%;
+  height: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding-top: 2em;
+  max-width: 1800px;
+  min-width: 5em;
+}
+
+=======
 }
 
 nav { 
@@ -376,6 +423,7 @@ nav {
 }
 
 
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
 .overlay {
 height: 0%;
 width: 100%;
@@ -455,6 +503,18 @@ right: 35px;
 
 /* Blockquotes */
 blockquote {
+<<<<<<< HEAD
+  margin-left: 3em; /* 0.8889rem = 16px when font-size: 12pt */
+  margin-right: 3em;
+  margin-bottom: -0.3em;
+  margin-top: -0.3em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: inherit;
+  background-color: #d6e2f0;
+  box-shadow: grey 3px 2px 2px;
+  font-size: smaller;
+=======
 margin-left: 3em; /* 0.8889rem = 16px when font-size: 12pt */
 margin-right: 3em;
 margin-bottom: -0.3em;
@@ -465,6 +525,7 @@ font-size: inherit;
 border-left: 1px solid #1a1a1a;
 background-color: #dee0e2;
 font-size: smaller;
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
 }
 
 blockquote p{
@@ -533,7 +594,11 @@ blockquote {
 } 
 
 .footnote-ref{
+<<<<<<< HEAD
+  color: #133e44;
+=======
   color: #1e616b;
+>>>>>>> 6425bd3c422e4c673750b84d0396de33602fe414
   font-size: 12px;
   text-decoration: none;
   line-height: 2px;
